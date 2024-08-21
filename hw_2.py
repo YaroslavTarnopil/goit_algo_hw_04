@@ -22,7 +22,7 @@ def get_cats_info(path):
         print(f"Виникла несподівана помилка: {e}")
         return []
 
-path_to_file = 'D:/Projects VS Code/got_algo_hw_04/get_cats_info.txt'
+path_to_file = ('get_cats_info.txt')
 cats_list = get_cats_info(path_to_file)
 for cat in cats_list:
     print(cat)

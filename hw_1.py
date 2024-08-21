@@ -21,7 +21,6 @@ def total_salary(path):
         return None, None
 
 # Приклад використання функції:
-path = 'd:/Projects VS Code/got_algo_hw_04/salaries.txt'
-total, average = total_salary(path)
-if total is not None and average is not None:
-    print(f"Загальна сума зарплати: {total}, Середня заробітна плата: {average}")
+total, average = total_salary('salaries.txt')
+print(f"Загальна сума заробітних плат: {total}")
+print(f"Середня заробітна плата: {average}")
